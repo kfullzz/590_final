@@ -1,5 +1,5 @@
 yr_engen <- function(df, col, plant, year, para) {
-  #subset rows for a partocilar plant
+  #subset rows for a particular plant
   df_pl <- df[df[ , col] == plant, ]
   #calculate mean of a parameter by year
   df_pl_ag <- aggregate(df_pl, list(df_pl[ , year]), mean)

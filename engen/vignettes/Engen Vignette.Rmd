@@ -13,6 +13,10 @@ vignette: >
 
 As Global energy demand continues to increase, it is more important than ever to design and implement power plants that are efficient in their energy generation, especially when it comes to renewable energy. Tracking different measure of efficiency of energy generation for individual plants becomes important for identifying plants that are not meeting these efficiency/production standards.
 
+##Sample Dataset
+
+Included in this package is the mon_gen dataset, 
+
 ## Functions
 
 This package includes 4 functions related to calculating measures of net generation over time: mo_engen, mo_engen_gr, yr_engen, yr_engen_gr. 
