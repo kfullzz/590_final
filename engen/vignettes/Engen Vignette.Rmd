@@ -15,7 +15,7 @@ As Global energy demand continues to increase, it is more important than ever to
 
 ##Sample Dataset
 
-Included in this package is the mon_gen dataset, 
+Included in this package is the mon_gen dataset, which contains data on hydroelectric powerplants in the Western United States (sourced from https://catalog.data.gov/dataset/hydropower-potential-in-the-western-us). This dataset is used in the examples below to demonstrate how to use the functions in this package.  
 
 ## Functions
 
@@ -44,7 +44,6 @@ The mo_engen() function takes 5 parameters:
 
 ####Usage
 ```
-mon_gen <- read.csv("...data/kate_data2.csv")
 mon_gen_mo <- mo_engen(mon_gen, "Installed.Capacity", "Monthly.Nameplate", "Net.Generation", "Percent.Generation")
 ```
 

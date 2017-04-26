@@ -38,6 +38,10 @@
 <h2>Background</h2>
 <p>As Global energy demand continues to increase, it is more important than ever to design and implement power plants that are efficient in their energy generation, especially when it comes to renewable energy. Tracking different measure of efficiency of energy generation for individual plants becomes important for identifying plants that are not meeting these efficiency/production standards.</p>
 </div>
+<div id="sample-dataset" class="section level2">
+<h2>Sample Dataset</h2>
+<p>Included in this package is the mon_gen dataset, which contains data on hydroelectric powerplants in the Western United States (sourced from <a href="https://catalog.data.gov/dataset/hydropower-potential-in-the-western-us" class="uri">https://catalog.data.gov/dataset/hydropower-potential-in-the-western-us</a>). This dataset is used in the examples below to demonstrate how to use the functions in this package.</p>
+</div>
 <div id="functions" class="section level2">
 <h2>Functions</h2>
 <p>This package includes 4 functions related to calculating measures of net generation over time: mo_engen, mo_engen_gr, yr_engen, yr_engen_gr.</p>
@@ -86,8 +90,7 @@
 </div>
 <div id="usage" class="section level4">
 <h4>Usage</h4>
-<pre><code>mon_gen &lt;- read.csv(&quot;...data/kate_data2.csv&quot;)
-mon_gen_mo &lt;- mo_engen(mon_gen, &quot;Installed.Capacity&quot;, &quot;Monthly.Nameplate&quot;, &quot;Net.Generation&quot;, &quot;Percent.Generation&quot;)</code></pre>
+<pre><code>mon_gen_mo &lt;- mo_engen(mon_gen, &quot;Installed.Capacity&quot;, &quot;Monthly.Nameplate&quot;, &quot;Net.Generation&quot;, &quot;Percent.Generation&quot;)</code></pre>
 </div>
 </div>
 <div id="mo_engen_gr" class="section level3">
