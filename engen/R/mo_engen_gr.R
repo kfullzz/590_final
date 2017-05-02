@@ -11,6 +11,7 @@
 #' @return Function with return a series of graphs displaying parameter trends overtime by year
 #' @examples
 #' mo_engen_gr(mon_gen_mo, "Plant.Name", "Alvoca", "Month", "Year")
+#' @export
 
 
 

@@ -10,6 +10,7 @@
 #' @return Function will return a summary table for a single energy plant of the mean of a parameter per year
 #' @examples
 #' yr_engen(mon_gen_mo, "Plant.Name", "Alcova", "Year", "Percent.Generation")
+#' @export
 
 
 yr_engen <- function(df, col, plant, year, para) {

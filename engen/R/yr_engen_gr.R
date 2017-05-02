@@ -8,6 +8,7 @@
 #' @return Function will return a graph for a single energy plant of the mean of a parameter over time
 #' @examples
 #' yr_engen_gr(mon_gen_mo_al, "Year", "Percent.Generation")
+#' @export
 
 
 yr_engen_gr <- function(df, year, para) {

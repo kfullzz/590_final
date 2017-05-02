@@ -10,6 +10,7 @@
 #' @return Dataframe with 2 new columns containing nameplate and percent net generation
 #' @examples
 #' mo_engen(mon_gen, "Installed.Capacity", "Monthly.Nameplate", "Net.Generation", "Percent.Generation")
+#' @export
 
 
 mo_engen <- function(df, ins_cap, mo_name, net_gen, per_gen) {
